@@ -23,12 +23,12 @@ Detta projekt utför beräkningar för olika kunder.
 
 4. Skapa en `.env`-fil med dina API-nycklar:
     ```plaintext
-    # Stenungsund
-    STENUNGSUND_API_KEY=din_api_key_for_stenungsund
-    # Tjörn
-    TJORN_API_KEY=din_api_key_for_tjorn
-    # Kungälv
-    KUNGALV_API_KEY=din_api_key_for_kungalv
+    # COUSTOMER 1
+    COUSTOMER1_API_KEY=din_api_key_for_stenungsund
+    # COUSTOMER 2
+    COUSTOMER2_API_KEY=din_api_key_for_tjorn
+    # COUSTOMER 3
+    COUSTOMER3_API_KEY=din_api_key_for_kungalv
     ```
 
 ## Användning
@@ -47,9 +47,9 @@ SOLTAK/
 │
 ├── config/
 │   ├── __init__.py
-│   ├── stenungsund_config.py
-│   ├── tjorn_config.py
-│   ├── kungalv_config.py
+│   ├── coustomer1_config.py
+│   ├── coustomer1_config.py
+│   ├── coustomer1_config.py
 │   └── lynx_client.py
 │
 ├── scripts/
