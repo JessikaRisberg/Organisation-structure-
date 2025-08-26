@@ -48,8 +48,8 @@ SOLTAK/
 ├── config/
 │   ├── __init__.py
 │   ├── coustomer1_config.py
-│   ├── coustomer1_config.py
-│   ├── coustomer1_config.py
+│   ├── coustomer2_config.py
+│   ├── coustomer3_config.py
 │   └── lynx_client.py
 │
 ├── scripts/
